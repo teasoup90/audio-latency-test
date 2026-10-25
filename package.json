@@ -1,0 +1,23 @@
+{
+  "name": "audio-latency-test",
+  "version": "0.1.0",
+  "description": "Measure speaker-to-microphone round-trip audio latency in the browser with chirps and FFT cross-correlation. Zero dependencies.",
+  "type": "module",
+  "main": "src/audio-latency-test.js",
+  "types": "src/audio-latency-test.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/audio-latency-test.d.ts",
+      "default": "./src/audio-latency-test.js"
+    }
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": ["audio", "latency", "round-trip", "web-audio", "audioworklet", "cross-correlation", "chirp", "fft", "microphone"],
+  "author": "teasoup",
+  "license": "MIT",
+  "homepage": "https://teasoup90.github.io/audio-latency-test/",
+  "repository": { "type": "git", "url": "https://github.com/teasoup90/audio-latency-test.git" }
+}
